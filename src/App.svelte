@@ -17,7 +17,21 @@
 
 <SvelteSeo
   title="My Simple Svelte App"
-  description="A short description goes here. Hello Xin Chào Mọi Người đây là một web  mình code bằng svelte ahihihi" />
+  description="A short description goes here. Hello Xin Chào Mọi Người đây là một web  mình code bằng svelte ahihihi"
+  openGraph={{
+    title: 'Open Graph Title',
+    description: 'Open Graph Description',
+    url: 'https://www.example.com/page',
+    type: 'website',
+    images: [
+      {
+        url: 'https://scontent.fhan4-2.fna.fbcdn.net/v/t1.6435-9/150150991_479446133057110_927264625403946655_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=DBjhdSslfKAAX_HGMOr&_nc_ht=scontent.fhan4-2.fna&oh=00_AT8lotzVvgsLdDCksTtUJ7s5X9MypGE_yfhAJNlgG-l1Yw&oe=628741D8',
+        width: 850,
+        height: 650,
+        alt: 'Og Image Alt',
+      },
+    ],
+  }} />
 
 <ul>
   <li>
