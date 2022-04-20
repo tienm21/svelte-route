@@ -14,5 +14,3 @@ yarn
 ```bash
 yarn dev dev
 ```
-
-Navigate to [localhost:5000](http://localhost:5000).
